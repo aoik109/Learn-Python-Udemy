@@ -35,20 +35,25 @@
 # special commands
 # print(), len(), abs()
 #function(arguments)
-print("test")
-print(len('allison'))
-print(abs(-50))
-print('one', 'two')
+# print("test")
+# print(len('allison'))
+# print(abs(-50))
+# print('one', 'two')
 
-print(max(1,100,2,400,50,20))
+# print(max(1,100,2,400,50,20))
 
-###### Methods
-# functions that are attached to objects
-print('a word'.upper())
+# ###### Methods
+# # functions that are attached to objects
+# print('a word'.upper())
 
-username = 'John Smithxx'.title() # first letter uppercase
-username = 'John Smith'.title().strip('x') #removes the arguments from the front/end of string
-print(username)
+# username = 'John Smithxx'.title() # first letter uppercase
+# username = 'John Smith'.title().strip('x') #removes the arguments from the front/end of string
+# print(username)
+# username.isalpha() # returns boolean if there are only alpha characters in the string
 
+# print(dir(username)) #prints all the methods of the object
 
-print(dir(username)) #prints all the methods of the object
+## EXERCISE: replace puppies with another string
+exercise_string = 'I like puppies. puppies like me'
+exercise_string = exercise_string.replace('puppies', 'kayden the cat', 1)
+print(exercise_string)
