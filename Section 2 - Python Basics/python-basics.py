@@ -3,7 +3,7 @@
 # print("  /  /")
 # print("/  /  /")
 
-######## Math operators
+######## Math operators ###################3
 #power
 # print(10**2) # 10^2
 # #floor divide -> truncating
@@ -11,7 +11,7 @@
 # #mod -> remainder
 # print(7%2) # 2 2 2 1 = remainder 1
 
-######### Variables
+######### Variables ###################3
 # a container for any type of data
 # result = 10 + 5
 # print(result)
@@ -31,7 +31,7 @@
 # test_variable_snake_case+=20
 # print(test_variable_snake_case)
 
-########### Functions
+########### Functions ###################3
 # special commands
 # print(), len(), abs()
 #function(arguments)
@@ -42,7 +42,7 @@
 
 # print(max(1,100,2,400,50,20))
 
-# ###### Methods
+# ###### Methods ###################3
 # # functions that are attached to objects
 # print('a word'.upper())
 
@@ -54,6 +54,10 @@
 # print(dir(username)) #prints all the methods of the object
 
 ## EXERCISE: replace puppies with another string
-exercise_string = 'I like puppies. puppies like me'
-exercise_string = exercise_string.replace('puppies', 'kayden the cat', 1)
-print(exercise_string)
+# exercise_string = 'I like puppies. puppies like me'
+# exercise_string = exercise_string.replace('puppies', 'kayden the cat', 1)
+# print(exercise_string)
+
+######### Return Values ###################3
+test_variable = len('A word'.upper().replace('A', 'X'))
+print(print(test_variable))
