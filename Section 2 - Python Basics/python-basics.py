@@ -1,17 +1,17 @@
-######## Code executes from top to bottom
+# ####### Code executes from top to bottom
 # print("    /")
 # print("  /  /")
 # print("/  /  /")
 
-######## Math operators ###################3
-#power
-# print(10**2) # 10^2
+# ####### Math operators ###################3
+# power
+# print(10 ** 2) # 10^2
 # #floor divide -> truncating
-# print(10//3) # 3
+# print(10 // 3) # 3
 # #mod -> remainder
 # print(7%2) # 2 2 2 1 = remainder 1
 
-######### Variables ###################3
+# ######## Variables ###################3
 # a container for any type of data
 # result = 10 + 5
 # print(result)
@@ -31,10 +31,10 @@
 # test_variable_snake_case+=20
 # print(test_variable_snake_case)
 
-########### Functions ###################3
+# ########## Functions ###################3
 # special commands
 # print(), len(), abs()
-#function(arguments)
+# function(arguments)
 # print("test")
 # print(len('allison'))
 # print(abs(-50))
@@ -53,11 +53,11 @@
 
 # print(dir(username)) #prints all the methods of the object
 
-## EXERCISE: replace puppies with another string
+# # EXERCISE: replace puppies with another string
 # exercise_string = 'I like puppies. puppies like me'
 # exercise_string = exercise_string.replace('puppies', 'kayden the cat', 1)
 # print(exercise_string)
 
-######### Return Values ###################3
-test_variable = len('A word'.upper().replace('A', 'X'))
-print(print(test_variable))
+# ######## Return Values ###################3
+# test_variable = len('A word'.upper().replace('A', 'X'))
+# print(print(test_variable)) # inner = 6, outer = None (what print returns)
