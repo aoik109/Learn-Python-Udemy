@@ -23,7 +23,7 @@ on multiple
 lines'''
 print(test_var6)
 
-# math and strings
+####math and strings
 test_var7 = 'hello' + ' World'
 print(test_var7)
 test_var8 = 'copy' * 10 # repeats copy 10 times
@@ -33,7 +33,7 @@ print(test_var8)
 name = 'Gojo'
 age = 28
 greeting_string = 'Hello {one}, you are {two} years old'.format(one=name, two=age) # format method; not many people use this
-greeting_string_better = f'Hello {name}, you are {age} years old' # f string
+greeting_string_better = f'Hello {name}, you are {age} years old' # f-string
 print(greeting_string)
 print(greeting_string_better)
 
