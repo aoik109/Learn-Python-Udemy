@@ -30,3 +30,28 @@ print(exercise_list[1][2][1])
 second_list = exercise_list[1]
 second_list[0] = 890
 print(exercise_list)
+
+############## PART 2 - SLICING ##################
+## Slicing
+# arr[1:3] -> select the elements from 1 up to 3 (not including)4
+test_list = [1,2,3,4]
+print(test_list[1:4]) # we want elements of index 1,2,3
+
+## Direction of slicing
+test_list2 = [1,2,3,4,5,6,7,8,9,10]
+print(test_list2[1:3:1]) ##positive direction 1->3 by 1
+print(test_list2[0:8:2]) ##picking every second value starting from index 0
+print(test_list2[9:0:-2]) ##from index 9 (val = 10) to (not including) index 0
+print(test_list2[-1:4:-1]) ##print 10->6
+
+## leaving slicing values empty
+default_slicing = test_list2[::] ## start = 0, end = len-1, by=1
+print(default_slicing)
+
+## EXERCISE
+exercise_slice = test_list2[7:0:-2]
+print(exercise_slice)
+
+## tuple_slicing
+test_tuple = (1,2,3,4,5,6,7,8,9,10)
+print(test_tuple[0:5:3])
